@@ -1,3 +1,37 @@
+/* tablet responsive design start here */
+@media screen and (max-width: 992px) {
+     .nav-logo img {
+    width: 50px;
+  }
+    .nav-logo h1 {
+    font-size: 1.50rem;
+    font-weight: 800;
+    width: 140px;
+  }
+  .nav-link-list ul li {
+  margin-left: 22px;
+  font-size: 1.15rem;
+}
+     .banner-section-container {
+    background-size: cover;
+    background-position: center;
+  }
+     .banner-section-content h1 {
+    font-size: 3rem;
+  }
+  .banner-btn-container {
+    margin: 0px 20px;
+    margin-top: 30px;
+  }
+  .banner-btn-container input,
+  .banner-btn-container select {
+    width: 20%;
+  }
+  .primary-btn {
+    width: 20%;
+  }
+}
+
 /* mobile responsive design atart here */
 @media screen and (max-width: 567px) {
   .nav-link-list {
@@ -21,7 +55,7 @@
     padding: 3rem 0px;
   }
   .banner-section-content h1 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .banner-section-content p {
     width: 90%;
@@ -38,8 +72,5 @@
   }
   .primary-btn {
     width: 80%;
-  }
-  .banner-btn-container button i {
-    padding-right: 15px;
   }
 }
