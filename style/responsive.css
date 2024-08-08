@@ -1,22 +1,22 @@
 /* tablet responsive design start here */
 @media screen and (max-width: 992px) {
-     .nav-logo img {
+  .nav-logo img {
     width: 50px;
   }
-    .nav-logo h1 {
-    font-size: 1.50rem;
+  .nav-logo h1 {
+    font-size: 1.5rem;
     font-weight: 800;
     width: 140px;
   }
   .nav-link-list ul li {
-  margin-left: 22px;
-  font-size: 1.15rem;
-}
-     .banner-section-container {
+    margin-left: 22px;
+    font-size: 1.15rem;
+  }
+  .banner-section-container {
     background-size: cover;
     background-position: center;
   }
-     .banner-section-content h1 {
+  .banner-section-content h1 {
     font-size: 3rem;
   }
   .banner-btn-container {
@@ -30,6 +30,17 @@
   .primary-btn {
     width: 20%;
   }
+    /* tours section start here */
+  .tour-section-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tour-left-section{
+  width: 100%;
+}
+.tour-right-section{
+  width: 100%;
+}
 }
 
 /* mobile responsive design atart here */
@@ -73,4 +84,16 @@
   .primary-btn {
     width: 80%;
   }
+
+  /* tours section start here */
+  .tour-section-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tour-left-section{
+  width: 100%;
+}
+.tour-right-section{
+  width: 100%;
+}
 }

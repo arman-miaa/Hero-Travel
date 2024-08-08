@@ -116,3 +116,51 @@ border: none;
     padding-right: 10px;
    font-size: 1.15rem;
 }
+
+/* main section start here */
+
+main{
+  width: 90%;
+  margin: 0 auto;
+}
+/* tours section start here */
+.tour-section-container {
+  border: 1px solid rgba(137, 43, 226, 0.645);
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  margin-top: 50px;
+}
+.tour-left-section{
+  width: 50%;
+}
+
+
+.tour-left-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tour-left-section p {
+line-height: 29px; 
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.tour-left-section ul {
+
+  margin-left: 20px;
+}
+.tour-left-section ul li {
+  margin-top: 24px;
+  line-height: 26px;
+}
+.tour-right-section{
+  width: 50%;
+}
+.tour-right-section img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
