@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* primary btn */
+.primary-btn {
+border-radius: 8px;
+background: rgb(255, 84, 0);
+width: 174px;
+height: 52px;
+
+border: none;
+color: rgb(255, 255, 255);
+   font-size: 1.15rem;
+
+}
+
+.header-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.nav-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img {
+  margin-right: 16px;
+}
+.nav-logo h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-link-list ul {
+  display: flex;
+}
+.nav-link-list ul li {
+  list-style: none;
+  margin-left: 44px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.banner-section-container {
+    margin-top: 50px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group%2013%20(1)%20(1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section-content {
+  text-align: center;
+  padding: 9rem 0px;
+}
+.banner-section-content h1 {
+    font-size: 64px;
+font-weight: 800;
+color: white;
+}
+.banner-section-content p {
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.banner-btn-container {
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.3);
+margin-top: 4rem;
+padding: 15px 0px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.banner-btn-container input,
+.banner-btn-container select {
+    color: rgba(19, 19, 24, 0.5);
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 174px;
+height: 52px;
+padding: 0px 10px;
+font-size: 20px;
+border: none;
+}
+.banner-btn-container button i {
+    padding-right: 10px;
+   font-size: 1.15rem;
+}
