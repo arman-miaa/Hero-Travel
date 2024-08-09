@@ -36,15 +36,37 @@
   }
     /* tours section start here */
   .tour-section-container {
-    flex-direction: column;
-    gap: 30px;
+    height: 100%;
+    margin-top: 10px;
   }
+  .tour-container {
+      flex-direction: column;
+
+  gap: 40px;
+  height: 100%;
+
+}
   .tour-left-section{
   width: 100%;
+}
+.tour-left-section h2 {
+  font-size: 1.75rem;
 }
 .tour-right-section{
   width: 100%;
 }
+/* choose section responsive for tablet */
+.choose-title-des-content {
+  margin-top: 30px;
+}
+.choose-title-des-content h1 {
+  font-size: 1.75rem;
+}
+.choose-title-des-content p {
+  width: 100%;
+  margin-top: 10px; 
+}
+
 }
 
 /* mobile responsive design atart here */
@@ -89,15 +111,41 @@
     width: 80%;
   }
 
-  /* tours section start here */
+   /* tours section start here */
   .tour-section-container {
-    flex-direction: column;
-    gap: 30px;
+    height: 100%;
+    margin-top: 10px;
   }
+  .tour-container {
+      flex-direction: column;
+
+  gap: 40px;
+  height: 100%;
+
+}
   .tour-left-section{
   width: 100%;
 }
+.tour-left-section h2 {
+  font-size: 1.75rem;
+}
 .tour-right-section{
   width: 100%;
+}
+/* choose section responsive for mobile */
+.choose-title-des-content {
+  margin-top: 30px;
+}
+.choose-title-des-content h1 {
+  font-size: 1.75rem;
+}
+.choose-title-des-content p {
+  width: 100%;
+  margin-top: 10px; 
+}
+.row1,
+.row2,
+.row3  { 
+  grid-template-columns: 1fr;
 }
 }
